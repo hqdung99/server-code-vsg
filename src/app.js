@@ -11,8 +11,7 @@ const db = mongoose.connection;
 // Check connection
 db.on('error', console.error.bind(console, 'connection error'));
 db.once('open', function () {
-  console.log('We are connected!');
+  console.log('We are connectedcko!hhahaha');
 });
-
-const init = require('./routes');
-init.init();
+// const init = require('./routes');
+// init.init();
